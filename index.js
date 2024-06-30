@@ -15,8 +15,8 @@ const server = express();
 server.use(express.json());
 
 //handling all routes
-server.use("/", (req,res)=>{res.send("welcome to ecommerce API")});
 server.use("/products", productRouter);
+server.use("/", (req,res)=>{res.send("welcome to ecommerce API")});
 
 //app level middleware to handle error
 server.use(appLevelErrorHandlerMiddleware);
