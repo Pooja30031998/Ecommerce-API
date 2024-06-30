@@ -2,7 +2,7 @@
 An API for an ecommerce platform admin to manage product inventory
 
 # Hosted URL
-You can access the deployed ecomm api [here]().
+You can access the deployed ecomm api [here](https://ecommerce-api-bu3m.onrender.com/).
 
 # Environment Variables
 To run the application, set up the following environment variables in a ```.env``` file at the root of your project:
@@ -11,7 +11,7 @@ PORT=3000
 DB_URL=mongodb://localhost:27017/mydatabase
 ```
 
-# Installation
+# Steps to install project locally
 To run this project locally, follow these steps:
 1. Clone the repository to your local machine
 2. Navigate to the project directory
@@ -28,6 +28,12 @@ To run this project locally, follow these steps:
 # API Documentation
 ## Routes
 
+###  Get ecomm api home page
+- URL [GET]: ``` / ```
+- Method: ```GET```
+- response: "welcome to ecommerce API"
+- Description: home page
+  
 ### Post a Product
 - URL [POST]: ``` /products/create ```
 - Method: ```POST```
