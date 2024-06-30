@@ -1,9 +1,11 @@
 # Ecommerce-API
 An API for an ecommerce platform admin to manage product inventory
 
+# Hosted URL
+You can access the deployed ecomm api [here]().
+
 # Environment Variables
 To run the application, set up the following environment variables in a ```.env``` file at the root of your project:
-
 ```
 PORT=3000
 DB_URL=mongodb://localhost:27017/mydatabase
